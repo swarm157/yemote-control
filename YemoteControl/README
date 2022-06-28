@@ -1,0 +1,6 @@
+MADE BY KURBATOV YRA
+
+to run this application in both modes, you must make 'cd' to directory where you read that text
+then for server mode, run service.sh and next server.sh
+if you want to change something, just terminate server.sh and edit server.properties then run again
+for client mode it needed just use client.sh and run it here
