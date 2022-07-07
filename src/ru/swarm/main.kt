@@ -1,5 +1,6 @@
 package ru.swarm
 
+import ru.swarm.experimental.implementation.LoginServer
 import java.util.logging.Level
 import java.util.logging.Logger
 import kotlin.system.exitProcess
@@ -28,6 +29,7 @@ fun main(args: Array<String>) {
     if (drawGUI) {
         Client()
     } else {
-        Server().start()
+        LoginServer.main(null)
+        //Server().start()
     }
 }
